@@ -1,0 +1,19 @@
+---
+name: CustomEntity
+version: 0.0.1
+main: BOFOIII\CustomEntity\Main
+api: 5.0.0-BETA2
+src-namespace-prefix: BOFOIII\CustomEntity
+commands:
+  grand_hammer:
+    description: Test command
+    permission: grand.hammer
+  stomping:
+    description: Animated
+    permission: grand.hammer.stomping
+permissions:
+  grand.hammer:
+    default: true
+  grand.hammer.stomping:
+    default: true
+...

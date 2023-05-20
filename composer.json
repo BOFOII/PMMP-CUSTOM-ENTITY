@@ -1,0 +1,16 @@
+{
+    "name": "asper/proxythread",
+    "autoload": {
+        "psr-4": {
+            "Asper\\Proxythread\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BOFOIII"
+        }
+    ],
+    "require": {
+        "pocketmine/pocketmine-mp": "5.0.0-BETA2"
+    }
+}
